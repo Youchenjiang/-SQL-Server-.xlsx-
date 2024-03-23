@@ -27,7 +27,7 @@
 2-4.資料來源處選擇「Microsoft Excel」，點擊「Next>」  
 <img width="300" height="200" src="/Image/2-4.png"/>  
 2-5.會出現「'Microsoft.ACE.OLEDB.12.0' 提供者並未登錄於本機電腦上」錯誤，因此需下載擴充套件
-<img width="400" height="200" src="/Image/2-5.png"/>  
+<img width="450" height="200" src="/Image/2-5.png"/>  
 
 開啟瀏覽器
 -
