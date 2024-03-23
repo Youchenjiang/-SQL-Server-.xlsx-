@@ -1,33 +1,51 @@
-![image](https://github.com/Youchenjiang/-SQL-Server-.xlsx-/assets/89691664/66cfb3ae-bd9d-4abb-8369-a9e5d1f0a19b)
 # Visual Studio 2022 新版 SQL Server 匯入 EXCEL 資料方法  
 說明：下文分別使用1,2表示不同軟體間操作  
-1表示Visual Studio 2022  
-2表示SQL Server Management Studio 20   
 -
+1.表示Visual Studio 2022  
+2.表示SQL Server Management Studio 20  
+3.表示在本機上操作
+
 首先開啟VS2022
 -
-1-1.在「Visual Studio 2022」開啟專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目  
+1-1.在「Visual Studio 2022」開啟(或建立)專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目  
+<img width="400" height="150" src="/Image/1-1.png"/>   
 1-2.選擇加入「SQL Server資料庫」  
+<img width="400" height="150" src="/Image/1-2.png"/>   
 1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標  
+<img width="400" height="150" src="/Image/1-3.png"/>   
 1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱  
+<img width="400" height="150" src="/Image/1-4.png"/>   
 
 接下來就可以在SSMS中作操作  
 -
-2-1.資料來源處選擇「Microsoft Excel」，點擊「Next」  
-<img width="400" height="150" src="/Image/1.png"/>  
-2-2.會出現「」錯誤  
-<img width="400" height="150" src="/Image/2.png"/>    
-3.搜尋[Microsoft Access Database Engine 2016 可轉散發套件](https://www.microsoft.com/zh-tw/download/details.aspx?id=54920)  
-<img width="400" height="150" src="/Image/3.png"/>  
-4.將它存在「下載」目錄底下  
-<img width="400" height="150" src="/Image/4.png"/>  
-5.點擊「accessdatabaseengine_X64.exe」，安裝在「C:\Program Files\Microsoft Office\」資料夾內  
-<img width="400" height="150" src="/Image/5.png"/>  
-6.在「下載」資料夾下，右鍵後點擊「在終端中開啟」(無圖)  
-輸入「cmd」，點擊Enter，輸入「AccessDatabaseEngine.exe」，點擊Enter  
-<img width="400" height="150" src="/Image/6.png"/>  
-7.回到第1步驟，此時已經可以點擊「Next」  
-<img width="400" height="150" src="/Image/7.png"/>  
-8.更改目的地為「Microsoft OLE DB Driver」  
-<img width="400" height="150" src="/Image/7.png"/>  
-9.點擊屬性，
+2-1.連線至伺服器畫面貼上1.4步驟的伺服器名稱，並選擇Windows驗證  
+<img width="400" height="150" src="/Image/2-1.png"/>   
+2-2.點擊連線後，點擊物件總管/工作/匯入資料  
+<img width="400" height="150" src="/Image/2-2.png"/>   
+2-3.開啟匯入匯出精靈後，選擇「Next>」  
+<img width="400" height="150" src="/Image/2-3.png"/>   
+2-4.資料來源處選擇「Microsoft Excel」，點擊「Next>」  
+<img width="400" height="150" src="/Image/2-4.png"/>  
+2-5.會出現「'Microsoft.ACE.OLEDB.12.0' 提供者並未登錄於本機電腦上」錯誤，因此需下載擴充套件
+<img width="400" height="150" src="/Image/2-5.png"/>  
+
+開啟瀏覽器
+-
+3-1.在瀏覽器中搜尋[Microsoft Access Database Engine 2016 可轉散發套件](https://www.microsoft.com/zh-tw/download/details.aspx?id=54920)  
+<img width="400" height="150" src="/Image/3-1.png"/>  
+3-2.將它存在「下載」目錄底下  
+<img width="400" height="150" src="/Image/3-2.png"/>  
+3-3.點擊「accessdatabaseengine_X64.exe」，安裝在「C:\Program Files\Microsoft Office\」資料夾內  
+<img width="400" height="150" src="/Image/3-3.png"/>  
+3-4.在「下載」資料夾下，右鍵後點擊「在終端中開啟」(無圖)  
+輸入「cmd」，點擊Enter，輸入「AccessDatabaseEngine.exe」，點擊Enter，即可關閉視窗  
+<img width="400" height="150" src="/Image/3-4.png"/>  
+
+安裝完擴充套件，回到SSMS
+-
+2-6.回到第2-1步驟，此時已經可以點擊「Next>」  
+<img width="400" height="150" src="/Image/2-6.png"/>    
+2-7.更改目的地為「Microsoft OLE DB Driver」  
+<img width="400" height="150" src="/Image/2-7.png"/>   
+2-8.點擊屬性，複製  
+<img width="400" height="150" src="/Image/2-8.png"/>   
