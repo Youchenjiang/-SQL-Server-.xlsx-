@@ -3,7 +3,9 @@
 說明：下文分別使用1,2表示不同軟體間操作  
 1表示Visual Studio 2022  
 2表示SQL Server Management Studio 20   
----
+-
+首先開啟VS2022
+-
 1-1.在「Visual Studio 2022」開啟專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目  
 1-2.選擇加入「SQL Server資料庫」  
 1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標  
