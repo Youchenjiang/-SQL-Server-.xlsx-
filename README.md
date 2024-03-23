@@ -1,11 +1,11 @@
 ![image](https://github.com/Youchenjiang/-SQL-Server-.xlsx-/assets/89691664/66cfb3ae-bd9d-4abb-8369-a9e5d1f0a19b)
-# Visual Studio 2022 新版 SQL Server 匯入 EXCEL 資料方法 
-說明：1表示Visual Studio 2022中操作；2表示SQL Server Management Studio 20中操作
-1-1.在「Visual Studio 2022」開啟專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目
-1-2.選擇加入「SQL Server資料庫」
-1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標
-1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱
+# Visual Studio 2022 新版 SQL Server 匯入 EXCEL 資料方法  
+說明：1表示Visual Studio 2022中操作；2表示SQL Server Management Studio 20中操作  
 ---
+1-1.在「Visual Studio 2022」開啟專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目  
+1-2.選擇加入「SQL Server資料庫」  
+1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標  
+1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱  
 接下來就可以在SSMS中作操作
 ---
 2-1.資料來源處選擇「Microsoft Excel」，點擊「Next」  
