@@ -19,13 +19,13 @@
 接下來就可以在SSMS中作操作  
 -
 2-1.連線至伺服器畫面貼上1.4步驟的伺服器名稱，並選擇Windows驗證  
-<img width="400" height="150" src="/Image/2-1.png"/>   
+<img width="300" height="150" src="/Image/2-1.png"/>   
 2-2.點擊連線後，點擊物件總管/工作/匯入資料  
-<img width="400" height="150" src="/Image/2-2.png"/>   
+<img width="300" height="150" src="/Image/2-2.png"/>   
 2-3.開啟匯入匯出精靈後，選擇「Next>」  
-<img width="400" height="150" src="/Image/2-3.png"/>   
+<img width="300" height="150" src="/Image/2-3.png"/>   
 2-4.資料來源處選擇「Microsoft Excel」，點擊「Next>」  
-<img width="400" height="150" src="/Image/2-4.png"/>  
+<img width="300" height="150" src="/Image/2-4.png"/>  
 2-5.會出現「'Microsoft.ACE.OLEDB.12.0' 提供者並未登錄於本機電腦上」錯誤，因此需下載擴充套件
 <img width="400" height="150" src="/Image/2-5.png"/>  
 
