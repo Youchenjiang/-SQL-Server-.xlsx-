@@ -38,7 +38,7 @@
 3-3.點擊「accessdatabaseengine_X64.exe」，安裝在「C:\Program Files\Microsoft Office\」資料夾內  
 <img width="300" height="150" src="/Image/3-3.png"/>  
 3-4.在「下載」資料夾下，右鍵後點擊「在終端中開啟」(無圖)  
-輸入「cmd」，點擊Enter，輸入「AccessDatabaseEngine.exe」，點擊Enter，即可關閉視窗  
+輸入「cmd」，點擊Enter，輸入「AccessDatabaseEngine.exe /quiet」，點擊Enter，即可關閉視窗  
 <img width="300" height="150" src="/Image/3-4.png"/>  
 
 安裝完擴充套件，回到SSMS
