@@ -58,3 +58,7 @@
 -
 1-5.在伺服器總管點擊重新整理，可見匯入成功🎉  
 <img width="200" height="200" src="/Image/1-5.png"/> 
+
+參考資料：
+-
+[發現缺少的 SQL Server Native Client 的替代方案 - 您需要了解什麼！](https://www.youtube.com/watch?v=SA4La3eLUPY)
