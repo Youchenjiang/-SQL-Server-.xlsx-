@@ -48,13 +48,13 @@
 2-7.更改目的地為「Microsoft OLE DB Driver」  
 <img width="300" height="150" src="/Image/2-7.png"/>   
 2-8.點擊屬性，進入「資料連結內容」，將1-4步驟中的伺服器名稱貼上、選擇Windows驗證、選擇Database1.mdf資料庫，確定後即可進入下一步  
-<img width="300" height="150" src="/Image/2-8.png"/>   
+<img width="200" height="150" src="/Image/2-8.png"/>   
 2-9.點擊「Next>」直到最後、點擊Finish  
-<img width="300" height="150" src="/Image/2-9.png"/>   
+<img width="280" height="150" src="/Image/2-9.png"/>   
 2-10.在伺服器總管中可見匯入成功  
-<img width="300" height="150" src="/Image/2-10.png"/>   
+<img width="200" height="150" src="/Image/2-10.png"/>   
 
 打開VS2022
 -
-1-5.在伺服器總管點擊重新整理，可見匯入成功🎉
-<img width="300" height="150" src="/Image/1-5.png"/> 
+1-5.在伺服器總管點擊重新整理，可見匯入成功🎉  
+<img width="200" height="150" src="/Image/1-5.png"/> 
