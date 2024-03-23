@@ -1,6 +1,6 @@
 # 新版SQL Server匯入.xlsx資料方法 
-1.資料來源處選擇「Microsoft Excel」，點擊「Next」
-<img width="150" height="150" src="/Image/1.png"/>
+1.資料來源處選擇「Microsoft Excel」，點擊「Next」  
+<img width="150" height="150" src="/Image/1.png"/>  
 ![image](/Image/1.png)  
 2.會出現「」錯誤  
 ![image](/Image/2.png)  
