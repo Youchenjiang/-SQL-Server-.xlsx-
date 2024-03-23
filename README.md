@@ -13,7 +13,7 @@
 <img width="400" height="150" src="/Image/1-2.png"/>   
 1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標  
 <img width="400" height="150" src="/Image/1-3.png"/>   
-1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱  
+1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱「(LocalDB)\MSSQLLocalDB」 
 <img width="400" height="150" src="/Image/1-4.png"/>   
 
 接下來就可以在SSMS中作操作  
@@ -47,5 +47,14 @@
 <img width="400" height="150" src="/Image/2-6.png"/>    
 2-7.更改目的地為「Microsoft OLE DB Driver」  
 <img width="400" height="150" src="/Image/2-7.png"/>   
-2-8.點擊屬性，複製  
+2-8.點擊屬性，進入「資料連結內容」，將1-4步驟中的伺服器名稱貼上、選擇Windows驗證、選擇Database1.mdf資料庫，確定後即可進入下一步  
 <img width="400" height="150" src="/Image/2-8.png"/>   
+2-9.點擊「Next>」直到最後、點擊Finish  
+<img width="400" height="150" src="/Image/2-9.png"/>   
+2-10.在伺服器總管中可見匯入成功  
+<img width="400" height="150" src="/Image/2-10.png"/>   
+
+打開VS2022
+-
+1-5.在伺服器總管點擊重新整理，可見匯入成功🎉
+<img width="400" height="150" src="/Image/1-5.png"/> 
