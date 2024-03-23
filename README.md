@@ -34,7 +34,7 @@
 3-1.在瀏覽器中搜尋[Microsoft Access Database Engine 2016 可轉散發套件](https://www.microsoft.com/zh-tw/download/details.aspx?id=54920)  
 <img width="400" height="150" src="/Image/3-1.png"/>  
 3-2.將它存在「下載」目錄底下  
-<img width="300" height="150" src="/Image/3-2.png"/>  
+<img width="500" height="150" src="/Image/3-2.png"/>  
 3-3.點擊「accessdatabaseengine_X64.exe」，安裝在「C:\Program Files\Microsoft Office\」資料夾內  
 <img width="300" height="150" src="/Image/3-3.png"/>  
 3-4.在「下載」資料夾下，右鍵後點擊「在終端中開啟」(無圖)  
