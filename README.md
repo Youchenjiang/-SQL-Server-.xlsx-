@@ -1,8 +1,8 @@
 ![image](https://github.com/Youchenjiang/-SQL-Server-.xlsx-/assets/89691664/66cfb3ae-bd9d-4abb-8369-a9e5d1f0a19b)
 # Visual Studio 2022 新版 SQL Server 匯入 EXCEL 資料方法  
-說明：下文分別使用1,2表示不同軟體間操作
-1表示Visual Studio 2022；
-2表示SQL Server Management Studio 20  
+說明：下文分別使用1,2表示不同軟體間操作  
+1表示Visual Studio 2022  
+2表示SQL Server Management Studio 20   
 ---
 1-1.在「Visual Studio 2022」開啟專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目  
 1-2.選擇加入「SQL Server資料庫」  
