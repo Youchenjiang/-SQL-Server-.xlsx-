@@ -6,8 +6,9 @@
 1-2.選擇加入「SQL Server資料庫」  
 1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標  
 1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱  
-接下來就可以在SSMS中作操作
----
+
+接下來就可以在SSMS中作操作  
+-
 2-1.資料來源處選擇「Microsoft Excel」，點擊「Next」  
 <img width="400" height="150" src="/Image/1.png"/>  
 2-2.會出現「」錯誤  
