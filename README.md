@@ -10,7 +10,7 @@
 1-1.在「Visual Studio 2022」開啟(或建立)專案後，在「方案總管」的網站處右鍵，選擇加入/加入新項目  
 <img width="400" height="150" src="/Image/1-1.png"/>   
 1-2.選擇加入「SQL Server資料庫」  
-<img width="400" height="150" src="/Image/1-2.png"/>   
+<img width="200" height="150" src="/Image/1-2.png"/>   
 1-3.點擊新建的「Database1.mdf」，使得伺服器總管中的Database1.mdf為綠色圖標  
 <img width="400" height="150" src="/Image/1-3.png"/>   
 1-4.開啟工具/選項，在最下方的資料庫工具中找到資料連接，並複製SQL Server執行個體名稱「(LocalDB)\MSSQLLocalDB」 
